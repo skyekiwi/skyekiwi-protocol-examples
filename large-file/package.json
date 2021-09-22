@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "start": "./node_modules/.bin/ts-node ./src/index.ts --resolveJsonModule"
+  },
+  "dependencies": {
+    "@polkadot/util-crypto": "^7.4.1",
+    "@skyekiwi/crust-network": "^0.3.1",
+    "@skyekiwi/driver": "^0.3.1",
+    "@skyekiwi/file": "^0.3.1",
+    "@skyekiwi/ipfs": "^0.3.1",
+    "@skyekiwi/metadata": "^0.3.1",
+    "dotenv": "^10.0.0",
+    "ts-node": "^10.2.1",
+    "tweetnacl": "^1.0.3"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.3"
+  }
+}
